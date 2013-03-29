@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="StrutsWSClient-Spring-3-23-13.war" deploy-path="/" handle="module:/resource/StrutsWSClient-Spring-3-23-13/StrutsWSClient-Spring-3-23-13">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="WS4.war" deploy-path="/" handle="module:/resource/WS4/WS4">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
